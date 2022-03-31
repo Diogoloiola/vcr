@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/ruby
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      server:
+      - GitHub.com
+      date:
+      - Thu, 31 Mar 2022 18:28:27 GMT
+      content-type:
+      - application/json; charset=utf-8
+      cache-control:
+      - public, max-age=60, s-maxage=60
+      vary:
+      - Accept, Accept-Encoding, Accept, X-Requested-With
+      etag:
+      - W/"2b747fa65121d2df1026da1cbb33dc7006a5356210eecbb16cc9069eb832eafe"
+      last-modified:
+      - Wed, 23 Mar 2022 14:06:07 GMT
+      x-github-media-type:
+      - github.v3; format=json
+      access-control-expose-headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+        X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+        X-GitHub-Request-Id, Deprecation, Sunset
+      access-control-allow-origin:
+      - "*"
+      strict-transport-security:
+      - max-age=31536000; includeSubdomains; preload
+      x-frame-options:
+      - deny
+      x-content-type-options:
+      - nosniff
+      x-xss-protection:
+      - '0'
+      referrer-policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      content-security-policy:
+      - default-src 'none'
+      x-ratelimit-limit:
+      - '60'
+      x-ratelimit-remaining:
+      - '44'
+      x-ratelimit-reset:
+      - '1648752692'
+      x-ratelimit-resource:
+      - core
+      x-ratelimit-used:
+      - '16'
+      accept-ranges:
+      - bytes
+      content-length:
+      - '538'
+      x-github-request-id:
+      - E3BC:565B:11133B:13860A:6245F2CB
+    body:
+      encoding: UTF-8
+      string: '{"login":"ruby","id":210414,"node_id":"MDEyOk9yZ2FuaXphdGlvbjIxMDQxNA==","avatar_url":"https://avatars.githubusercontent.com/u/210414?v=4","gravatar_id":"","url":"https://api.github.com/users/ruby","html_url":"https://github.com/ruby","followers_url":"https://api.github.com/users/ruby/followers","following_url":"https://api.github.com/users/ruby/following{/other_user}","gists_url":"https://api.github.com/users/ruby/gists{/gist_id}","starred_url":"https://api.github.com/users/ruby/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ruby/subscriptions","organizations_url":"https://api.github.com/users/ruby/orgs","repos_url":"https://api.github.com/users/ruby/repos","events_url":"https://api.github.com/users/ruby/events{/privacy}","received_events_url":"https://api.github.com/users/ruby/received_events","type":"Organization","site_admin":false,"name":"The
+        Ruby Programming Language","company":null,"blog":"https://www.ruby-lang.org/","location":"Matsue,
+        Japan","email":"info@ruby-lang.org","hireable":null,"bio":"Repositories related
+        to the Ruby Programming language","twitter_username":null,"public_repos":163,"public_gists":0,"followers":0,"following":0,"created_at":"2010-02-25T03:48:00Z","updated_at":"2022-03-23T14:06:07Z"}'
+  recorded_at: Thu, 31 Mar 2022 18:28:27 GMT
+recorded_with: VCR 6.1.0
